@@ -55,3 +55,107 @@ h2 {
 #nav-list li a:hover {
     border-bottom: 1px solid white;
 }
+
+
+/* banner*/
+#main-banner {
+    height: 70vh;
+    background-image: url(../img/bg-projeto.jpg);
+    background-size: cover;
+    padding: 15vh;
+}
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%; /* Arredonda a imagem */
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner-info p {
+    background-color: red;
+    font-weight: bolder;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+#about-section {
+    background-color: red;
+    text-align: center;
+    color: white;
+    height: 350px;
+    padding-top: 50px;
+}
+
+#about-section h2{
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+#skill-section {
+    margin-top: -100px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius:  10px;
+}
+#skill-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skill-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central  {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.skill-container h3{
+    color: red;
+    font-size: 20px;
+}
+
+.skill-container img {
+    height: 60px;  
+    padding: 15px;  
+    margin-bottom: 25px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 4px solid red;
+    border-bottom: 4px solid red;
+    
+}
+
+.skill-container .subtitle {
+    font-weight: bold;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+.skill-container p {
+    line-height: 25px;
+}
